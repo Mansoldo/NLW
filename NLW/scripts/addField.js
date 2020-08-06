@@ -11,7 +11,7 @@ function cloneField(){
     const fields = newFieldContainer.querySelectorAll('input');
 
     //Para cada campo, limpar
-    fields.array.forEach(function(field){
+    fields.forEach(function(field){
         //Pegar o field do momento e limpa
         field.value = ""
     });
